@@ -1,4 +1,1 @@
-# Computer-Vision-Based-Projects
-# A cross - platform Flutter App 
-# Powered by TFLite - To Recognize Food Items and estimate Calories
-# Trained on Google Colab
+The main objective of this project is to train a model able to run on mobile phone and able to identifying food items and estimating their calorie content using deep learning. The solution integrates a YOLOv8s-based image classification model trained on the Food-101 dataset ..., optimized for mobile deployment using TensorFlow Lite (TFLite), and embedded within a Flutter (Android Studio) application for offline operation.
