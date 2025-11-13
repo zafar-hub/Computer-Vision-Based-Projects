@@ -3,7 +3,7 @@ import subprocess
 from ultralytics import YOLO
 
 # === CONFIG ===
-model_path = r"C:\Users\MSI GL75\runs\classify\train4\weights\best.pt"
+model_path = r"A:Pathpath\runs\classify\train4\weights\best.pt"
 onnx_path = os.path.splitext(model_path)[0] + ".onnx"
 export_dir = os.path.dirname(model_path)
 input_shape = "1,3,320,320"  # B,C,H,W for YOLOv8-classify
@@ -34,3 +34,4 @@ try:
 except subprocess.CalledProcessError as e:
     print("❌ Conversion failed.")
     print(e)
+
