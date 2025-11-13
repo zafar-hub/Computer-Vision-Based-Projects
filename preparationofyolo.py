@@ -2,12 +2,12 @@ import os
 import shutil
 
 # ----- Adjust these paths if needed -----
-base_path = r"E:\Aiproject\foodyolo\training\data\food101"
+base_path = r"E:\pathpath\training\data\food101"
 images_path = os.path.join(base_path, "images")
 meta_path = os.path.join(base_path, "meta")
 
 # Output dataset for YOLOv8
-output_base = r"E:\Aiproject\foodyolo\training\data\food101"
+output_base = r"E:\pathpath\training\data\food101"
 train_dir = os.path.join(output_base, "train")
 val_dir = os.path.join(output_base, "val")
 
@@ -39,3 +39,4 @@ copy_images(os.path.join(meta_path, "test.txt"), val_dir)
 print("✅ Validation set ready!")
 
 print("🎉 Food-101 is now ready for YOLOv8 classification!")
+
